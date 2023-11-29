@@ -35,12 +35,13 @@ Users should be able to:
 
 ## My process
 
+- Edited README.md
 - Started with mobile design 
-- created index.html in design folder
+- Created index.html in design folder
 
 ### Built with
 
-- Semantic HTML5 markup
+- Semantic and landmarks HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
