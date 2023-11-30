@@ -16,6 +16,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
     - [Useful resources](#useful-resources)
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
+  - [Time estimate](#time-estimate)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -56,17 +57,14 @@ Users should be able to:
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- css reset
+- css grid
 
 ### Useful resources
 
 - [A (more) Modern CSS Reset](https://andy-bell.co.uk/a-more-modern-css-reset/) - This helped me CSS reset.
   
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Media queries](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/#media-queries-7) - This is an amazing article which helped me understand more about media queries. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
@@ -81,3 +79,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+
+## Time estimate 

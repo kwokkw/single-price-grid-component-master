@@ -77,7 +77,7 @@ article {
 
 .card1 p {
     color: var(--grayish-blue);
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .card2 h2 {
@@ -93,11 +93,12 @@ article {
 }
 
 .perMonth {
-    color: rgba(255, 255, 255, 0.5)
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .card2 p {
-    color: rgba(255, 255, 255, 0.75)
+    color: rgba(255, 255, 255, 0.75);
+    font-size: initial;
 }
 
 .card2 a {
@@ -124,4 +125,35 @@ article {
 
 .attribution {
     font-size: small;
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 48rem) {
+    .card1 {
+        grid-area: area1;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    .card2 {
+        grid-area: area2;
+        border-radius: 0 0 0 0.5rem;
+    }
+
+    .card3 {
+        grid-area: area3;
+        border-radius: 0 0 0.5rem 0;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 
+        22rem 22rem;
+        grid-template-areas: 
+            "area1 area1"
+            "area2 area3"
+        ;
+    }
 }
