@@ -173,6 +173,6 @@ article {
     }
 
     .card1 p {
-        line-break: wrap;
+        white-space: pre-line;
     }
 }
