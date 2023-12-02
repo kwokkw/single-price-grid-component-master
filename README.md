@@ -76,6 +76,8 @@ Those are where your adjustments would need to be
 
 - [CSS box-shadow examples](https://getcssscan.com/css-box-shadow-examples)
 
+- [What ID attribute is REALLY for](https://fedmentor.dev/posts/id-attribute-masterclass/) - I learn that never style on ID attribute
+
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
