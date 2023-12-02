@@ -39,6 +39,7 @@ Users should be able to:
 - Edited README.md
 - Started with mobile design 
 - Created index.html in design folder
+- Created style.css
 
 ### Built with
 
@@ -59,6 +60,7 @@ Users should be able to:
 
 - css reset
 - css grid
+- vertical-align
 
 ### Useful resources
 

@@ -25,6 +25,7 @@ body {
     /* FONT */
     --font-size: 0.85rem;
     --heading-fs: 1.125rem;
+    --line-height: 1.5;
 }
 
 /* GENERAL STYLES*/
@@ -36,13 +37,13 @@ body {
     display: grid;
     place-content: center;
     gap: 3rem;
-    padding: 4.5rem 2rem;
+    padding: 4.5rem 1rem;
 }
 
 /* Blocks */
 
 article {
-    padding: 2rem 1.5rem;
+    padding: 2rem 0.9rem;
 }
 
 .card1 {
@@ -54,8 +55,6 @@ article {
 
 .card2 {
     background-color: var(--cyan);
-    display: grid;
-    gap: 1.5rem;
 }
 
 .card3 {
@@ -77,19 +76,21 @@ article {
 
 .card1 p {
     color: var(--grayish-blue);
-    line-height: 1.5;
+    line-height: var(--line-height);
 }
 
 .card2 h2 {
     color: white;
     font-size: var(--heading-fs);
+    padding-bottom: 1rem;
 }
 
 .price {
     color: white;
     font-size: xx-large;
     font-weight: bold;
-    padding-right: 0.75rem;
+    vertical-align: middle;
+    padding-right: 0.5rem;
 }
 
 .perMonth {
@@ -99,6 +100,12 @@ article {
 .card2 p {
     color: rgba(255, 255, 255, 0.75);
     font-size: initial;
+    padding-bottom: 0.25rem;
+}
+
+/* Target the third <p> elements that sit inside element whose class attribute has a value of card2 */
+.card2 p:nth-child(3) {
+    padding-bottom: 2rem;
 }
 
 .card2 a {
@@ -121,10 +128,11 @@ article {
 .card3 ul {
     list-style: none;
     color: rgba(255, 255, 255, 0.5);
+    line-height: var(--line-height);
 }
 
 .attribution {
-    font-size: small;
+    font-size: x-small;
     text-align: center;
 }
 
@@ -133,8 +141,6 @@ article {
 @media screen and (min-width: 48rem) {
     .card1 {
         grid-area: area1;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
     }
 
     .card2 {
@@ -155,5 +161,18 @@ article {
             "area1 area1"
             "area2 area3"
         ;
+    }
+
+    article {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    .card1 h2 {
+        font-size: 0.95rem;
+    }
+
+    .card1 p {
+        line-break: wrap;
     }
 }
