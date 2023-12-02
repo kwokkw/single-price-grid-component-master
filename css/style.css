@@ -156,11 +156,12 @@ article {
     main {
         display: grid;
         grid-template-columns: 
-        22rem 22rem;
+        17.5rem 17.5rem;
         grid-template-areas: 
             "area1 area1"
             "area2 area3"
         ;
+        max-width: 35rem;
     }
 
     article {

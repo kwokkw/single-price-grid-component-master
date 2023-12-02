@@ -55,6 +55,12 @@ Users should be able to:
 
 - Media query should be in rem, and it should target a smaller screen size, maybe around 50rem or so.
 - Performance-wise, it's better to link fonts in the <head> of the HTML then using @import.
+- if it is happening at totally different places to the design at the same screen widths then the reasons are: 
+  
+  - incorrect font styles (family or size)
+  - incorrect max width on the component
+
+Those are where your adjustments would need to be
 
 ### Continued development
 
