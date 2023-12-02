@@ -68,6 +68,8 @@ Users should be able to:
   
 - [Media queries](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/#media-queries-7) - This is an amazing article which helped me understand more about media queries. I'd recommend it to anyone still learning this concept.
 
+- [CSS box-shadow examples](https://getcssscan.com/css-box-shadow-examples)
+
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
