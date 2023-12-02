@@ -171,8 +171,4 @@ article {
     .card1 h2 {
         font-size: 0.95rem;
     }
-
-    .card1 p {
-        white-space: pre-line;
-    }
 }
