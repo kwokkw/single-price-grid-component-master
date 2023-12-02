@@ -1,6 +1,8 @@
 # Frontend Mentor - Single price grid component solution
 
-This is a solution to the [Single price grid component challenge on Frontend Mentor]( https://kwokkw.github.io/single-price-grid-component-master/). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Single price grid component challenge on Frontend Mentor]( https://kwokkw.github.io/single-price-grid-component-master/). 
+
+Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -18,8 +20,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Acknowledgments](#acknowledgments)
   - [Time estimate](#time-estimate)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here]( https://kwokkw.github.io/single-price-grid-component-master/)
+- Solution URL: [Repository](https://github.com/kwokkw/single-price-grid-component-master)
+- Live Site URL: [live site URL]( https://kwokkw.github.io/single-price-grid-component-master/)
 
 ## My process
 
@@ -49,12 +49,12 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 - Media query should be in rem, and it should target a smaller screen size, maybe around 50rem or so.
+  
 - Performance-wise, it's better to link fonts in the <head> of the HTML then using @import.
+  
 - if it is happening at totally different places to the design at the same screen widths then the reasons are: 
   
   - incorrect font styles (family or size)
@@ -67,6 +67,7 @@ Those are where your adjustments would need to be
 - css reset
 - css grid
 - vertical-align
+- IDs as element anchors
 
 ### Useful resources
 
@@ -80,16 +81,12 @@ Those are where your adjustments would need to be
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Kwok Wong](https://kwokkw.github.io/single-price-grid-component-master/)
+- Frontend Mentor - [@kwokkw](https://www.frontendmentor.io/profile/kwokkw)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+@Grace Snow 
 
 ## Time estimate 
+
